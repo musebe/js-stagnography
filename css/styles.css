@@ -1,0 +1,125 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+    background-color: rgb(35, 64, 71);
+    color:#f3efef;
+}
+.caed {
+    background-color: rgb(35, 64, 71);   
+}
+h1 {
+    color:black;
+    margin-bottom:10px;
+}
+#main {
+    position:relative;
+    width:940px;
+    padding:20px;
+    margin:auto;
+}
+#right {
+    /* position:relative;
+    float:left;
+    margin: 10px;
+    width:600px;
+    vertical-align:top; */
+}
+#left {
+    position:relative;
+    float:left;
+    width:260px;
+    padding:10px;
+    margin-right:10px;
+    border-right:3px solid #7A91A1;
+    background-color:#E8E0FF;
+}
+.half {
+    position:relative;
+    display:inline-block;
+    width:49%;
+}
+#original {
+    vertical-align:top;
+}
+#messageArea {
+    width:100%;
+}
+#img {
+    /* height:85%; */
+}
+.btns {
+    margin-top:15px;
+    margin-bottom:10px;
+    padding: 0 40px;
+}
+/* .btn {
+    padding:10px 20px 10px 20px;
+    -moz-border-radius:15px;
+    -o-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:2px solid #FF4545;
+    cursor:pointer;
+    color:#FF4545;
+    background-color:white;
+    width:50px;
+    text-align:center;
+} */
+/* .btn:hover {
+    color:white;
+    background-color:#FF4545;
+} */
+#download {
+    /* position:absolute;
+    top:47px;
+    left:4px;
+    padding:10px 5px 5px 3px;
+    width:10px;
+    border-top:1px solid black;
+    -moz-border-radius:0 0 15px 15px;
+    -o-border-radius:0 0 15px 15px;
+    -webkit-border-radius:0 0 15px 15px;
+    border-radius:0 0 15px 15px;
+    text-decoration:none; */
+}
+/* #download:hover {
+    width:70px;
+} */
+/* #download:hover:after {
+    content:"ownload";
+} */
+#description {
+    line-height:25px;
+    padding-bottom:5px;
+    border-bottom:1px solid lightgrey;
+}
+#capacity {
+    font-weight:normal;
+    font-size:15px;
+}
+.note {
+    font-size:9px;
+    text-align:center;
+    color:black;
+}
+.invisible {
+    visibility:hidden;
+}
+.clear {
+    clear:both;
+}
+.footer {
+    margin-top:25px;
+    width:100%;
+    text-align:right;
+}
+textarea{
+    padding:10px;
+    height:200px;
+    width:100%;
+    /* resize:none; */
+}
+h2{
+    margin-top:0;
+}
